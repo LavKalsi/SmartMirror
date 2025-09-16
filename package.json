@@ -1,0 +1,28 @@
+{
+  "name": "smart_mirror",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Smart Mirror with Node.js and Electron",
+  "dependencies": {
+    "axios": "^1.9.0",
+    "say": "^0.16.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LavKalsi/smart_mirror.git"
+  },
+  "bugs": {
+    "url": "https://github.com/LavKalsi/smart_mirror/issues"
+  },
+  "homepage": "https://github.com/LavKalsi/smart_mirror#readme",
+  "devDependencies": {
+    "electron": "^38.1.0"
+  }
+}

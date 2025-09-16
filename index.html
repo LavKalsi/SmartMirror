@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Smart Mirror</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div id="container">
+    <!-- Weather Left -->
+    <div id="left-column">
+      <div id="weather">Loading weather...</div>
+    </div>
+
+    <!-- Center Clock -->
+    <div id="center">
+      <div id="clock">--:--:--</div>
+    </div>
+
+    <!-- News Right -->
+    <div id="right-column">
+      <div id="news">Loading news...</div>
+    </div>
+  </div>
+
+  <!-- Chatbot (Bottom Center) -->
+  <div id="chatbot-container">
+    <div id="gif-box">
+      <img id="status-gif" src="./bot/idle.gif" alt="Assistant Status" />
+    </div>
+
+    <div id="chat-header">
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24"
+           viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+           stroke-linecap="round" stroke-linejoin="round" class="message-icon">
+        <path d="M7.9 20A9 9 0 1 0 4 16.1L2 22Z"></path>
+      </svg>
+      <span>Assistant</span>
+    </div>
+
+    <div id="chatbot">
+      <div id="chat-messages"></div>
+      <input type="text" id="chat-input" placeholder="Ask something..." />
+    </div>
+  </div>
+
+  <img id="company-logo" src="logo/logo.png" alt="Company Logo" />
+
+  <script src="renderer.js"></script>
+</body>
+</html>

@@ -1,0 +1,34 @@
+# Node.js dependencies
+node_modules/
+
+# Electron build files
+/dist/
+/build/
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables / API keys
+.env
+python/env/
+
+# VSCode settings
+.vscode/
+
+# Compiled files
+*.log
+*.tsbuildinfo
+
+# Electron crash reports
+*.dmp
+
+# Backup files
+*.bak
+*.tmp
+core
